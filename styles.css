@@ -1,0 +1,72 @@
+body {
+    font-family: Arial blank ;
+    margin: 8;
+    padding: 0;
+    background-color: #ffe6f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+  }
+  
+  .container {
+    background-color: #D8A7D1;
+    border-radius: 16px;
+    padding: 20px;
+    width: 50%;
+    max-width: 700px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000000;
+  }
+  
+  p {
+    text-align: center;
+    color:#e0f7fa;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid#e0f7fa;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    background-color:#f3e5f5;
+    color: black;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 26px;
+  }
+  
+  button:hover {
+    background-color: #45a4 #f3e5f5;
+}
+  
